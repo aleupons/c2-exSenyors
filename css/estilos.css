@@ -25,6 +25,14 @@ body {
   position: relative;
   flex: 0 185px;
 }
+.avatar-marcado {
+  border-right: 2px dashed #fff;
+  position: relative;
+  flex: 0 185px;
+}
+.avatar-marcado img {
+  transform: scaleX(-1);
+}
 .inicial {
   position: absolute;
   background-color: #600;
@@ -52,6 +60,19 @@ body {
   line-height: 35px;
   text-align: center;
   display: none;
+}
+.icono-marcado {
+  color: #fff;
+  background-color: #060;
+  border-radius: 50%;
+  font-size: 24px;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  line-height: 35px;
+  text-align: center;
 }
 .senyor-molde {
   display: none;
